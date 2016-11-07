@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>控制div属性</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/smoothness/jquery.ui.css" type="text/css" />
+</head>
+<body>
+<div id="control">
+    <button type="button" class="control_button">变宽</button>
+    <button type="button" class="control_button">变高</button>
+    <button type="button" class="control_button">变色</button>
+    <button type="button" class="control_button">隐藏</button>
+    <button type="button" class="control_button">重置</button>
+    <button type="button" class="control_button">换肤</button>
+</div>
+<div id="under_control">
+</div>
+<div id="attribute">
+    <p>
+        <label for="attr">属性： </label>
+        <input type="text" class="text" name="attr" id="attr"/>
+    </p>
+    <p>
+        <label for="name">账号： </label>
+        <input type="text" class="text" name="name" id="name"/>
+    </p>
+    <p>
+        <button id="sure_button">确定</button>
+        <button id="reset_button">重置</button>
+    </p>
+</div>
+<div id="show_attr" class="base_style">
+    在上方输入属性名及属性值，点击“确定”按钮查看。
+</div>
+
+<div id="choose_table">
+    <ul>
+        <li>第一课</li>
+        <li>第二课</li>
+        <li>第三课</li>
+    </ul>
+    <div id="div1"><p>123</p><p>werqwer</p><p>73475934</p></div>
+    <div id="div2"><p>345</p><p>sdfj两款手机打发</p><p>7阿萨德发斯蒂芬/p></div>
+    <div id="div3"><p>4589</p><p>阿斯顿发送到r</p><p>实得分</p></div>
+</div>
+<div id="check_box">
+    <p>
+        <button id="check_all">全选</button>
+        <button id="check_others">反选</button>
+    </p>
+    <p>
+        <input type="checkbox" class="check" name="check"/>
+        <label>选项（一）</label>
+    </p>
+    <p>
+        <input type="checkbox" class="check" name="check"/>
+        <label>选项（二）</label>
+    </p>
+    <p>
+        <input type="checkbox" class="check" name="check"/>
+        <label>选项（三）</label>
+    </p>
+    <p>
+        <input type="checkbox" class="check" name="check"/>
+        <label>选项（四）</label>
+    </p>
+    <p>
+        <input type="checkbox" class="check" name="check"/>
+        <label>选项（五）</label>
+    </p>
+    <p>
+        <input type="checkbox" class="check" name="check"/>
+        <label>选项（六）</label>
+    </p>
+</div>
+<img class="img_change" src="http://www.fgm.cc/learn/lesson2/img/big_7.jpg"/>
+<ul id="leftBox">
+    <li><a href="http://news.163.com/11/0321/04/6VL4M54L00014JB5.html" title="">卡扎菲号召全国皆兵 向人民打开武器库</a></li>
+    <li><a href="http://news.163.com/11/0321/04/6VL4M54L00014JB5.html" title="">利比亚首都遭空袭 政府军射防空炮反击</a></li>
+    <li><a href="http://news.163.com/11/0321/02/6VKTCF2100014AED.html" title="">私家车主明年起可使用北斗卫星定位服务</a></li>
+    <li><a href="http://t.163.com/jstvmengfei/status/3706007028503705259" title="">孟非微博盛赞白岩松 不愧是央视一哥</a></li>
+    <li><a href="http://t.163.com/wuxiaobo/status/6382213403461277859" title="">吴晓波：来自韩剧中的四十岁感悟</a></li>
+    <li><a href="http://ent.163.com/11/0320/22/6VKGL3UE00034JRU.html" title="">图集：独家曝光大S汪小菲婚礼现场</a></li>
+    <li><a href="http://money.163.com/photoview/0HH40025/1376.html#p=6VLLUR4G0HH40025#fr=email" title="">图集:日本石油紧缺 车辆高速路上排队购</a></li>
+</ul>
+<div id="input_value">
+    <label>请输入行数：</label><input id="rows" type="text"/><label>列数：</label><input type="text" id="cols"/>
+    <button id="click_create">生成表格</button>
+</div>
+<table id="createtable" border="1"></table>
+<!--<ul id="delay_loading">-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+    <!--<li><img src="http://www.fgm.cc/learn/lesson10/img/lazy/none.gif"/></li>-->
+<!--</ul>-->
+
+</body>
+
+</html>

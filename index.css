@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #ffffff;
+
+
+}
+#control{
+    text-align: center;
+    margin: 20px 0;
+}
+#under_control{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    background : url(Desert.jpg);
+    margin:auto;
+
+}
+#control .control_button{
+
+
+    border-radius: 4px;
+
+
+}
+#attribute {
+    width:300px;
+    height:100px;
+    margin: 10px auto;
+    position: relative;
+}
+ .base_style{
+    width:200px;
+    height:200px;
+    background: #000;
+    color: white;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.addstyle{
+
+}
+#choose_table{
+    width:400px;
+    height:300px;
+    margin:20px auto;
+    padding:0;
+    position: relative;
+}
+#choose_table ul{
+
+    height:30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: black;
+    color: white;
+}
+#choose_table ul li{
+    width:80px;
+    height:30px;
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+#choose_table #div1{
+    margin: 0;
+    width:398px;
+    height:200px;
+    border: 1px solid #666;
+    position: absolute;
+    display: none;
+
+}
+#choose_table #div2{
+    width:398px;
+    height:200px;
+    border: 1px solid #666;
+    position: absolute;
+    display: none;
+
+}
+#choose_table #div3{
+    width:398px;
+    height:200px;
+    border: 1px solid #666;
+    position: absolute;
+    display: none;
+}
+#check_box{
+    margin:0 auto;
+    width: 200px;
+    height:300px;
+}
+.img_change{
+    margin: 0 0 0 550px;
+}
+#leftBox{
+    border:0px solid #ff0000;
+    height: 280px;
+
+}
+#delay_loading{
+    width:770px;
+    margin:0 auto;
+    list-style:none;
+}
+
+#delay_loading li{
+    float: left;
+    padding:0;
+    width:360px;
+    height:230px;
+}
